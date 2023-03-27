@@ -8152,7 +8152,18 @@ body {
 span {
     color: #64ffda;
 }
-
+.mainHeader{
+  width: 100% !important;
+  height: 100vh !important;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainHeader content{
+  margin: 0px auto;
+  width: 800px; /* or whatever */
+}
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
