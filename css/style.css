@@ -1571,7 +1571,7 @@ pre {
     .table-responsive-lg > .table-bordered {
       border: 0; } }
 
-@media (max-width: 1199.98px) {
+@media screen and (max-width: 995px) {
   .table-responsive-xl {
     display: block;
     width: 100%;
@@ -3630,7 +3630,7 @@ input[type="button"].btn-block {
     .navbar-expand-lg .navbar-toggler {
       display: none; } }
 
-@media (max-width: 1199.98px) {
+@media screen and (max-width: 995px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -8218,7 +8218,8 @@ h1, h2, h3, h4, h5,
       position: relative;
       display: block;
       padding-bottom: 2px; }
-      @media (max-width: 1199.98px) {
+      @media screen and (max-width: 995px), 
+      screen and (max-height: 700px)  {
         .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
           display: inline-block; } }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span:before {
@@ -8397,7 +8398,8 @@ h1, h2, h3, h4, h5,
   font-size: 16px;
   z-index: 1;
   color: rgba(0, 0, 0, 0.3); }
-  @media (max-width: 1199.98px) {
+  @media screen and (max-width: 995px), 
+  screen and (max-height: 700px)  {
     .hero h3.vr {
       opacity: 0;
       display: none; } }
@@ -8442,22 +8444,23 @@ h1, h2, h3, h4, h5,
         background: #b3b3b3; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 100%;
+    height: 750px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 100%;
+      height: 750px;
       position: relative;
       align-content:center;
       z-index: 0; }
-      @media (max-width: 1199.98px) {
+      @media screen and (max-width: 995px), 
+      screen and (max-height: 700px)  {
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
-        height:750px
+        height:750px;
         top: 0;
         bottom: 0;
         left: 0;
@@ -8483,7 +8486,8 @@ h1, h2, h3, h4, h5,
             background: #000000;
             height:100%;
             opacity: 0; }
-          @media (max-width: 1199.98px) {
+          @media screen and (max-width: 995px), 
+          screen and (max-height: 700px)  {
             .owl-carousel.home-slider .slider-item .slider-text .one-third {
               width: 85%; } }
           @media (max-width: 991.98px) {
@@ -9057,7 +9061,8 @@ textarea.form-control {
 
 .ftco-vh-100 {
   height: 100vh; }
-  @media (max-width: 1199.98px) {
+  @media screen and (max-width: 995px),
+  screen and (max-height: 700px)  {
     .ftco-vh-100 {
       height: inherit;
       padding-top: 5em;
@@ -9264,7 +9269,7 @@ textarea.form-control {
   position: relative;
   z-index: 0; }
 
-@media (max-width: 1199.98px) {
+@media screen and (max-width: 995px) {
   .ftco-counter {
     background-position: center center !important; } }
 
